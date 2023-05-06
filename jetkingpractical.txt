@@ -1,0 +1,75 @@
+what happens if we dont have smart contracts?
+ smart contracts permit trusted transactions and agreements to be carried out among anonymous partieswithout the need for central authority
+or any legal system, so if we dont have smart contract the transactions cannot be trusted .
+
+writing a program to understand iterative statement
+
+contract iterativesstatements
+
+{
+  function sum(uint_number)external pure returns(uint)
+  {
+     uint total;
+     for (uint i=1;i<=_number;i++)
+     {
+         total+=i;
+     }
+     return total;
+}
+}
+
+contract while sum
+{
+ function sum(uint_num) external pure returns(uint)
+ {
+   uint total;
+   uint i;
+  
+   while(i<=_num)
+    {
+     total=total+i;
+     i++;
+    }
+  return total:
+}
+}
+
+Write a Smart Contract for understanding Error HandlinginSolidity Programming Language.  
+contract Error {
+  function testrequire(uint_int)public pure
+{
+   require(_i>10,"input have to be greater than 10")
+}
+function testrevert(uint_1)public pure
+{
+  if(_i<=10)
+{
+ revert("input must be greater than 10");
+}
+}
+uint public num;
+function test assert() public view
+{
+  assert(num==1);
+}
+error insufficientbalance(uint balance,uint withdraw amount);
+ functiob testcustomererror(uint_withdrawamount)public view
+{
+uint bal=100000;
+if(bal<_withdrawl amount)
+{
+   revert insufficient balance({balance:bal,withdrawamount:_withdrawamount}):
+}
+}
+}
+contract errorhandling
+{
+  function test require(uint_number1,uint_number2)external pure
+{
+  require(_number1>=_number2,"if number1is greater than number2 then revertteh trasaction to the initial state");
+}
+}
+
+
+
+ 
